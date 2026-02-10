@@ -1,0 +1,95 @@
+/* Global reset / basic settings */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+/* HEADER */
+header.top {
+  background: #89cffa;
+  padding: 20px;
+  color: white;
+}
+
+header.top h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #e91e63; /* Random pink */
+}
+
+header.top .intro a {
+  color: green;
+  text-decoration: none;
+}
+
+header.top .intro a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+header.top .quote {
+  margin-top: 10px;
+  font-size: 0.95em;
+}
+
+/* IMAGE */
+.image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.doctors-img {
+  max-width: 90%;
+  height: auto;
+  border: 4px solid white;
+}
+
+/* MAIN SECTIONS */
+main {
+  width: 90%;
+  margin: auto;
+}
+
+/* Fires of Pompeii */
+section.fires h2 {
+  color: #00bcd4; /* Random teal */
+  font-size: 1.8em;
+  margin-top: 0;
+}
+
+/* Inferno */
+section.inferno {
+  background: yellow;
+  padding: 15px;
+  margin: 20px 0;
+  border: 2px solid orange;
+}
+section.inferno h3 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #9c27b0; /* Random purple */
+}
+
+/* Father's Day */
+section.fathers-day {
+  background: green;
+  color: white;
+  padding: 15px;
+  margin: 20px 0;
+}
+section.fathers-day h4 {
+  color: #ff9800; /* Random orange */
+}
+
+/* The Doctor's Daughter */
+section.daughter {
+  background: yellow;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+section.daughter h5 {
+  margin-top: 0;
+  color: #4caf50; /* Random green */
+}
