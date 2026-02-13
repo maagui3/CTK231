@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url("cat4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Centered paragraph */
+.center {
+  text-align: center;
+}
+
+/* Justified paragraph */
+.justify {
+  text-align: justify;
+}
+
+/* All headers */
+h1, h2, h3, h4, h5, h6 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* Image styling */
+img {
+  border: 6px solid black;
+  padding: 8px;
+  background-color: yellow;
+}
