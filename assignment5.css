@@ -1,0 +1,112 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: url("a5bg.png") repeat;
+}
+
+/* Main wrapper */
+#wrapper {
+  width: 90%;
+  margin: 25px auto;
+}
+
+/* Header */
+header {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 36px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+nav li {
+  flex: 1;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  background: #0b1fd1;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+/* NAV HOVER */
+nav a:hover {
+  background: #2d45ff;
+}
+
+/* Main Content */
+main {
+  background: white;
+  padding: 25px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Divider line */
+.divider {
+  border: none;
+  border-top: 3px solid black;
+  margin: 10px 0 15px;
+}
+
+/* Paragraphs */
+main p {
+  text-align: justify;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Main links */
+main a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* MAIN LINK HOVER */
+main a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  background: #05007a;
+  border: 3px solid white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
