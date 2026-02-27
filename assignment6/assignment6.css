@@ -1,0 +1,111 @@
+/**Page Background & Center Layout**/
+body {
+  margin: 0;
+  padding: 0;
+  background: url("a62.png") repeat;
+  font-family: Helvetica, Arial, sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+
+ /** Main Page Container**/
+
+body > * {
+  box-sizing: border-box;
+}
+
+body {
+  grid-template-columns: 1fr;
+}
+
+body > h1,
+body > ul,
+body > h2,
+body > p {
+  width: 900px;
+  background: white;
+  padding: 15px 25px;
+  margin: 0;
+}
+
+body > h1 {
+  margin-top: 30px;
+}
+
+
+/**Headings**/
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  border: 2px solid black;
+  border-bottom: none;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+/**Navigation**/
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  padding: 15px 25px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+ul li {
+  text-align: center;
+}
+
+ul a {
+  display: block;
+  padding: 10px 0;
+  background: red;
+  color: white;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+ul a:hover {
+  background: darkred;
+}
+
+/**Paragraph Text**/
+p {
+  font-family: Georgia, serif;
+  text-align: justify;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+/** Main Text Links Hover Effects**/
+p a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+
+  /**Footer Styling**/
+
+p:last-of-type {
+  font-family: Verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+}
