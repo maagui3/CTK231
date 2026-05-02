@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.css">
+</head>
+<body>
+
+<header>
+    <h1>My Projects</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+
+    <section class="card">
+    <h2>Website Project</h2>
+    <p>This is a website I created using HTML and CSS for class.</p>
+    <br><br>
+
+    <a href="https://maagui3.github.io/CTK231/assigment2/index.html" 
+   data-fancybox 
+   data-type="iframe"
+   data-caption="My Website Project">
+    <img src="cat1.jpg" alt="Website Project" class="project-img">
+</a>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Marco Aguilar</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
+
+<script>
+    Fancybox.bind("[data-fancybox]", {
+        Thumbs: false
+    });
+</script>
+
+</body>
+</html>
