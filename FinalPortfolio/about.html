@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>About Me</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,22 +22,45 @@
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="projects.html">Projects</a>
-    <a href="contact.html">contact</a>
+    <a href="contact.html">Contact</a>
 </nav>
 
 <main>
     <section class="card">
-        <h2>Who I Am</h2>
+    <div class="text-box">
+        <h2><i class="fa-solid fa-user"></i> Who I Am</h2>
         <p>I am a student interested in technology, design, and creativity. I like building websites and working on digital projects.</p>
-    </section>
+    </div>
+
+    <div class="audio-box">
+    <h3><i class="fa-solid fa-music"></i> Audio</h3>
+    <audio controls>
+        <source src="song1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+</section>
 
     <section class="card">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML & CSS</li>
-            <li>Design</li>
-            <li>Creative thinking</li>
-        </ul>
+        <div class="text-box">
+            <h2><i class="fa-solid fa-star"></i> Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Design</li>
+                <li>Creative thinking</li>
+            </ul>
+        </div>
+
+        <div class="image-box">
+            <img src="Skills1.png" alt="My work">
+        </div>
+    </section>
+
+    <!-- Social Icons -->
+    <section class="socials">
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#"><i class="fa-brands fa-discord"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
     </section>
 </main>
 

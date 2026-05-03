@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Projects</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.css">
 </head>
 <body>
 
@@ -15,19 +19,51 @@
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="projects.html">Projects</a>
-    <a href="contact.html">contact</a>
+    <a href="contact.html">Contact</a>
 </nav>
 
 <main>
 
+    <!-- Project 1 -->
     <section class="card">
-        <h2>Website Project</h2>
-        <p>This is a website I created using HTML and CSS for class.</p>
+        <h2>Website Project 1</h2>
+        <p>In this assignment, I learned how to split one webpage into multiple pages and connect them using links. I also practiced organizing content and using images and headings correctly.</p>
+        <br><br>
+
+        <a href="https://maagui3.github.io/CTK231/assigment2/index.html"
+           data-fancybox
+           data-type="iframe"
+           data-caption="Website Project 1">
+            <img src="cat1.jpg" alt="Website Project 1" class="project-img">
+        </a>
     </section>
 
+    <!-- Project 2 -->
     <section class="card">
-        <h2>Creative Project</h2>
-        <p>This project shows my creativity and design skills.</p>
+        <h2>Website Project 2</h2>
+        <p>In this assignment, I learned how to use grids and hover effects with CSS. It helped me understand layout better and how to make a website more interactive.</p>
+        <br><br>
+
+        <a href="https://maagui3.github.io/CTK231/assignment6/assignment6"
+           data-fancybox
+           data-type="iframe"
+           data-caption="Website Project 2">
+            <img src="cat2.jpg" alt="Website Project 2" class="project-img">
+        </a>
+    </section>
+
+    <!-- Project 3 -->
+    <section class="card">
+        <h2>Website Project 3</h2>
+        <p>This assignment helped me learn how to use CSS to style a website. I changed fonts, colors, and layouts, and saw how design makes a page look better.</p>
+        <br><br>
+
+        <a href="https://maagui3.github.io/CTK231/assignment4.html/classes.html"
+           data-fancybox
+           data-type="iframe"
+           data-caption="Website Project 3">
+            <img src="cat3.jpg" alt="Website Project 3" class="project-img">
+        </a>
     </section>
 
 </main>
@@ -35,6 +71,14 @@
 <footer>
     <p>© 2026 Marco Aguilar</p>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
+
+<script>
+    Fancybox.bind("[data-fancybox]", {
+        Thumbs: false
+    });
+</script>
 
 </body>
 </html>

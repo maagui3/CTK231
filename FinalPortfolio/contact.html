@@ -45,5 +45,18 @@
     <p>© 2026 Marco Aguilar</p>
 </footer>
 
+<script>
+const form = document.querySelector("form");
+
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    form.innerHTML = `
+        <h2>Thank you!</h2>
+        <p>Your message has been submitted. I’ll get back to you soon.</p>
+    `;
+});
+</script>
+
 </body>
 </html>
